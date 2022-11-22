@@ -150,3 +150,46 @@ a {
 .news-item:last-child {
     border: none;
 }
+
+.cards {
+    margin-top: 60px;
+    display: flex;
+    gap: 80px;
+    
+}
+
+.cards img {
+    width: 140px;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card-number {
+    font-size: 40px;
+    font-weight: 800;
+    color: hsl(233, 8%, 79%);
+}
+
+.card-description a {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-description a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.card-description p {
+    color: hsl(236, 13%, 42%);
+    line-height: 40px;
+}
