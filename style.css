@@ -159,7 +159,7 @@ a {
 }
 
 .cards img {
-    width: 140px;
+    max-width: 140px;
 }
 
 .card {
@@ -170,8 +170,8 @@ a {
 .card-description {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     justify-content: space-between;
+    /* border: 2px solid red; */
 }
 
 .card-number {
@@ -191,5 +191,5 @@ a {
 
 .card-description p {
     color: hsl(236, 13%, 42%);
-    line-height: 40px;
+    line-height: 25px;
 }
